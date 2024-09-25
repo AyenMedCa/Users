@@ -8,3 +8,4 @@ public interface IAuthService {
     public AuthResponse login(LoginRequest loginRequest);
     public AuthResponse register(RegisterRequest registerRequest);
 }
+    
