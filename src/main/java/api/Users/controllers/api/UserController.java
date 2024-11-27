@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/v1/user")
+@RequestMapping("users")
 public class UserController {
 
     private final UserServiceImp userServiceImp;
